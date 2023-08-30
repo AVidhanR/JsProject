@@ -7,11 +7,11 @@
     <title>myFirstjsProgram</title>
     <style>
         body {
-  display: flex;
-  align-items: center;
-}
+              display: flex;
+              align-items: center;
+        }
         #btn{
-            border: 5px;
+            border-radius: 5px;
             background-color: brown;
             color: white;
             padding: 10px;
@@ -23,14 +23,19 @@
     <h1 id="firstHeading">
     JavaScript Basic Challenges.
     </h1>
+</br>
     <h2>
         Challenge 1
     </h2>
+</br>
     <button id = "btn">Click Me!</button>
+</br>
     <script>
         var x = document.getElementsById("firstHeading");
         var y = document.getElementsById("btn");
-        
+        if(x) {
+            return "<h1>This is a sample only</h1>";
+        }
     </script>
 </body>
 </html>
